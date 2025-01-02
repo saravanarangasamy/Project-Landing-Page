@@ -1,0 +1,223 @@
+ul {
+    list-style-type: none;
+  }
+
+
+  /* General Reset  */
+body {
+   
+    margin: 0;
+    overflow: auto;
+    font-family: Roboto, sans-serif;
+
+
+    
+    
+  }
+  
+  .left-links img {
+    max-height: 100px; /* Control the height of the logo */
+    width: auto;
+  }
+
+  .placeholder-image img {
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: contain; /* Ensure the image scales without distortion */
+    border: 2px solid #ccc;
+    border-radius: 10px; /* Rounded corners for the image */
+  }
+
+
+  .header {
+    background-color: #1F2937; /* Dark background color */
+    color: #F9FAF8; /* Light text color for contrast */
+  }
+
+
+
+
+  .hero {
+    display: flex ;
+    justify-content: space-between;
+background-color: #1F2937;
+ color: #F9FAF8;
+ margin: 0;
+ padding: 0;
+
+
+  }
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .title {
+    font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  }
+  
+
+  .right-links, .subtext {
+
+    font-size: 18px;
+    color: #E5E7EB;
+
+
+  }
+
+  .left-links {
+    font-size: 24px;
+    color: #F9FAF8;
+  }
+
+.header-body {
+
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+
+button {
+  background-color: #3882F6; /* Button color */
+  color: #F9FAF8;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.left-links , .right-links{
+  
+  padding-top: 10px;
+}
+
+.header-text {
+  display: block;
+  flex: 1;
+  margin: 50px;
+
+}
+
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 50px;
+}
+
+
+.right-links {
+  margin: 50px;
+}
+
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  grid-gap: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+ 
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937; /* Information header text */
+  text-align: center;
+}
+
+p {
+  
+  text-align: center; /* Center text inside this div */
+}
+.card img {
+  width: 250px;
+    height: 250px;
+    border: 2px solid rgb(96 139 168);
+    border-radius: 5px;
+    background-color: #3882F6; /* Button color */
+    overflow: hidden;
+
+}
+
+.quote {
+  background-color: #E5E7EB; /* Quote section background color */
+  color: #1F2937;
+  padding: 40px;
+  text-align: center;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300; /* Light italic */
+  color: #1F2937;
+}
+
+.footer {
+  background-color: #1F2937; /* Dark background color */
+  color: #F9FAF8; /* Light text color for contrast */
+  text-align: center;
+  padding: 10px;
+}
+
+.signup-main {
+background-color: white;
+text-align: center;
+}
+
+
+.signup-section {
+  background-color: #3882F6; /* Button color */
+
+}
+
+
+
+.signup-button {
+
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 50px;
+}
+
+h2 {
+color: white;
+}
+
+
+.signup-section {
+margin: 150px 300px;
+display: flex;
+justify-content: center;
+
+}
+
+.signup1 {
+  color: white
+}
+
+.footer {
+  height: 50px;
+}
